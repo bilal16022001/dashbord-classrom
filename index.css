@@ -1,0 +1,242 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:calibri;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+
+.parent{
+    display:flex;
+}
+.parent nav{
+    background-color:#2c3e50;
+    height:100vh;
+    width:200px;
+}
+.parent nav ul li{
+    padding:15px 40px;
+}
+.parent nav ul li:hover{
+    background-color:#506074;
+}
+
+.parent nav ul li i{
+    color:#fff;
+    margin-right:8px;
+    background-color:#44586d;
+    padding:8px;
+    border-radius:5px;
+
+}
+.parent nav ul li a{
+    color:#fff;
+}
+.parent nav .info{
+    background-color:#44586d;
+    text-align:center;
+    padding:20px 0;
+}
+.parent nav .info h1{
+    color:#fff;
+    margin-bottom:50px;
+}
+.parent nav .info img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
+.parent nav .info span{
+    display:block;
+}
+.parent nav .info .name{
+    color:#fff;
+    font-weight:bold;
+    font-size:20px;
+}
+.parent nav .info .grade{
+color:rgb(143, 136, 136);
+}
+.active{
+    display:none;
+}
+
+.content .profile,.content .Tasks,.Shedule,.chat{
+    padding:20px;
+    width:800px;
+}
+.content .profile .header,.content .Tasks .header,.Shedule .header,.chat .header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:10px;
+    border-bottom:1px solid #e5e5e5;
+    padding-bottom: 8px;
+}
+.content .profile .header .time,.content .Tasks .header .time,.Shedule .header .time,.chat .header .time{
+    background-color:#e5e5e5;
+    border-radius:4px;
+}
+.content .profile .header .time span,.content .Tasks .header .time span,.Shedule .header .time span,.chat .header .time span{
+    display:block;
+}
+.content .profile .header .search input,.content .Tasks .header .search input,.Shedule .header .search input,.chat .header .search input{
+    height:30px;
+    padding-left:10px;
+    width:230px;
+    border-radius:10px;
+}
+
+.content .profile .login h3{
+    margin-bottom:10px;
+    font-size:30px;
+}
+.content .profile .login .info{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.content .profile .login .info .img img{
+    width:110px;
+    height:110px;
+    border-radius:50%;
+}
+.content .profile .login .info .chng a{
+    display:block;
+}
+.content .profile .login .info .chng label:first-child,.content .profile .login  form button,.content .Tasks .modules .module .progress button{
+    background-color:#2c3e50;
+    color:#fff;
+    padding:5px;
+    border-radius:3px;
+    display:block;
+    margin-bottom:5px;
+    border:none;
+}
+.content .profile .login .info .chng a:last-child{
+    background-color:#919191;
+    color:#fff;
+    padding:5px;
+    border-radius:3px;
+}
+.content .profile .login  form .name {
+   display: flex;
+   gap:30px;
+}
+.content .profile .login  form .name label,.content .profile .login  form label{
+    display: block;
+    margin-bottom:8px;
+}
+.content .profile .login  form .name input{
+    width:330px;
+    height:25px;
+}
+.content .profile .login  form input{
+    width:87%;
+    height:25px;
+    margin-bottom:10px;
+}
+.content .Tasks .modules{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+}
+.content .Tasks .modules .module {
+    border:1px solid #e5e5e5;
+    padding:10px;
+}
+.content .Tasks .modules .module h3,.module p{
+    margin-bottom:10px;
+}
+.content .Tasks .modules .module i{
+    margin-right:10px;
+}
+.content .Tasks .modules .module span{
+    display:block;
+    margin-bottom:10px;
+}
+.content .Tasks .modules .module .clr{
+    position: relative;
+}
+.content .Tasks .modules .module .clr .emptygray{
+    width:100%;
+    height:20px;
+    background-color:#e5e5e5;
+}
+.content .Tasks .modules .module  .clr .clrBlue{
+    height:20px;
+    background-color:#0d6efd;
+    position:absolute;
+    top:0;
+}
+.content .Tasks .modules .module .progress button{
+    background-color:#0d6efd;
+    padding:5px;
+}
+
+.shedul{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.shedul .tim span{
+    display:block;
+    margin-bottom:6px;
+}
+.math{
+    width:660px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:10px;
+    padding:10px;
+    border-radius:10px;
+}
+.shedul .or{
+    background-color:#ffe26f;
+}
+.shedul .bl{
+    background-color:#b4dbff;
+}
+.shedul .gr{
+    background-color:#e5e5e5;
+}
+.math .nameTeachr{
+    text-align:center;
+}
+.math .image img{
+    border-radius:15px;
+}
+.math .image{
+    position: relative;
+}
+.math .image span{
+    position:absolute;
+    bottom:8px;
+    left:50%;
+    transform:translateX(-50%);
+    background-color:#fff;
+    padding:1px;
+    border-radius:4px;
+}
+.math .nameTeachr img,.nameTeachr span{
+    display:block;
+    margin-bottom:10px;
+}
+.math .nameTeachr img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+}
+.math .nameModul{
+    width: 251px;
+}
+.math .nameModul h2{
+    margin-bottom:10px;
+}

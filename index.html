@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://use.fontawesome.com/30c0c7e796.css" media="all" rel="stylesheet">
+    <title>sidebar</title>
+</head>
+
+<body>
+    <div class="parent">
+        <nav>
+            <div class="info">
+                <h1>CLASSROM</h1>
+                <img src="img/th (3).jfif" />
+                <span class="name">Adnane Ch</span>
+                <span class="grade">Grade 1</span>
+            </div>
+            <ul>
+                <li data-category="profile"> <i class="fa fa-solid fa-user"></i><a href="#">My Profile</a></li>
+                <li data-category="Tasks"><i class="fa fa-solid fa-bars"></i><a href="#">Home Tasks</a></li>
+                <li data-category="Shedule"><i class="fa fa-solid fa-calendar"></i><a href="#">Shedule</a></li>
+                <li data-category="chat"><i class="fa fa-solid fa-comments"></i><a href="#">Chat</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="profile">
+                <div class="header">
+                    <div class="time">
+                        <span>27 feb</span>
+                        <span>08:55</span>
+                    </div>
+                    <div class="day">
+                        <h2>Wednesday</h2>
+                    </div>
+                    <div class="search">
+                        <input type="search" placeholder="search" />
+                    </div>
+                </div>
+                <div class="login">
+                    <h3>Profile picture</h3>
+                    <div class="info">
+                        <div class="img">
+                            <img src="img/th (3).jfif" />
+                        </div>
+                        <div class="chng">
+                            <label for="file">change Picture<input style="display:none;" type="file"
+                                    id="file" /></label>
+                            <a href="#">Delete Picture</a>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="name">
+                            <div class="">
+                                <label>first name</label>
+                                <input type="text" />
+                            </div>
+                            <div class="">
+                                <label>last name</label>
+                                <input type="text" />
+                            </div>
+                        </div>
+                        <label>email</label>
+                        <input type="email" />
+                        <label>city</label>
+                        <input type="text" />
+                        <label>zip</label>
+                        <input type="text" />
+                        <button>submit form</button>
+                    </form>
+                </div>
+            </div>
+            <div class="Tasks">
+                <div class="header">
+                    <div class="time">
+                        <span>27 feb</span>
+                        <span>08:55</span>
+                    </div>
+                    <div class="day">
+                        <h2>Wednesday</h2>
+                    </div>
+                    <div class="search">
+                        <input type="search" placeholder="search" />
+                    </div>
+                </div>
+                <div class="modules">
+                    <div class="module">
+                        <h3>Mathematics: Variables</h3>
+                        <p><i class="fa fa-solid fa-calendar"></i>due in 2 days</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, possimus excepturi.
+                            Debitis adipisci nisi voluptatum quaerat. Aspernatur et amet.</p>
+                        <div class="progress">
+                            <span>95% completed</span>
+                            <div class="clr">
+                                <span class="emptygray"></span>
+                                <span data-clr="95%" class="clrBlue"></span>
+                            </div>
+                            <button>Completd</button>
+                        </div>
+                    </div>
+                    <div class="module">
+                        <h3>Physics: Current Electricity</h3>
+                        <p><i class="fa fa-solid fa-calendar"></i>due in 3 days</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, possimus excepturi.
+                            Debitis adipisci nisi voluptatum quaerat. Aspernatur et amet.</p>
+                        <div class="progress">
+                            <span>60% completed</span>
+                            <div class="clr">
+                                <span class="emptygray"></span>
+                                <span data-clr="60%" class="clrBlue"></span>
+                            </div>
+                            <button>Completd</button>
+                        </div>
+                    </div>
+                    <div class="module">
+                        <h3>Networks: USA Culture</h3>
+                        <p><i class="fa fa-solid fa-calendar"></i>due in 4 days</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, possimus excepturi.
+                            Debitis adipisci nisi voluptatum quaerat. Aspernatur et amet.</p>
+                        <div class="progress">
+                            <span>25% completed</span>
+                            <div class="clr">
+                                <span class="emptygray"></span>
+                                <span data-clr="25%" class="clrBlue"></span>
+                            </div>
+                            <button>Completd</button>
+                        </div>
+                    </div>
+                    <div class="module">
+                        <h3>Networks: IPV6</h3>
+                        <p><i class="fa fa-solid fa-calendar"></i>due in 1 days</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, possimus excepturi.
+                            Debitis adipisci nisi voluptatum quaerat. Aspernatur et amet.</p>
+                        <div class="progress">
+                            <span>5% completed</span>
+                            <div class="clr">
+                                <span class="emptygray"></span>
+                                <span data-clr="5%" class="clrBlue"></span>
+                            </div>
+                            <button>Completd</button>
+                        </div>
+                    </div>
+                    <div class="module">
+                        <h3>programming: C++</h3>
+                        <p><i class="fa fa-solid fa-calendar"></i>due in 5 days</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, possimus excepturi.
+                            Debitis adipisci nisi voluptatum quaerat. Aspernatur et amet.</p>
+                        <div class="progress">
+                            <span>47% completed</span>
+                            <div class="clr">
+                                <span class="emptygray"></span>
+                                <span data-clr="47%" class="clrBlue"></span>
+                            </div>
+                            <button>Completd</button>
+                        </div>
+                    </div>
+                    <div class="module">
+                        <h3>English: simple past</h3>
+                        <p><i class="fa fa-solid fa-calendar"></i>due in 6 days</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, possimus excepturi.
+                            Debitis adipisci nisi voluptatum quaerat. Aspernatur et amet.</p>
+                        <div class="progress">
+                            <span>12% completed</span>
+                            <div class="clr">
+                                <span class="emptygray"></span>
+                                <span data-clr="12%" class="clrBlue"></span>
+                            </div>
+                            <button>Completd</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Shedule">
+                <div class="header">
+                    <div class="time">
+                        <span>27 feb</span>
+                        <span>08:55</span>
+                    </div>
+                    <div class="day">
+                        <h2>Wednesday</h2>
+                    </div>
+                    <div class="search">
+                        <input type="search" />
+                    </div>
+                </div>
+                <div class="shedul">
+                    <div class="tim">
+                        <span>9:00</span>
+                        <span>10:30</span>
+                    </div>
+                    <div class="math or">
+                        <div class="nameTeachr">
+                            <img src="img/th (3).jfif" />
+                            <span>Mr Adnane <br /> chaikhi</span>
+                        </div>
+                        <div class="nameModul">
+                            <h2>Mathematics</h2>
+                            <p>Multiplying 3 digit by 2-digit numbers</p>
+                        </div>
+                        <div class="image">
+                            <img src="img/class.jfif" />
+                            <span>5m to start</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="shedul">
+                    <div class="tim">
+                        <span>11:00</span>
+                        <span>12:00</span>
+                    </div>
+                    <div class="math bl">
+                        <div class="nameTeachr">
+                            <img src="img/th (3).jfif" />
+                            <span>Mr Bilal <br /> EL Fazazi</span>
+                        </div>
+                        <div class="nameModul">
+                            <h2>History</h2>
+                            <p>History of morocco</p>
+                        </div>
+                        <div class="image">
+                            <img src="img/class.jfif" />
+                            <span>70m to start</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="shedul">
+                    <div class="tim">
+                        <span>12:05</span>
+                        <span>13:30</span>
+                    </div>
+                    <div class="math gr">
+                        <div class="nameTeachr">
+                            <img src="img/th (3).jfif" />
+                            <span>Mr Bilal<br /> EL Fazazi</span>
+                        </div>
+                        <div class="nameModul">
+                            <h2>Physics</h2>
+                            <p>Electrostatic Potential and Capacitance</p>
+                        </div>
+                        <div class="image">
+                            <img src="img/class.jfif" />
+                            <span>2h to start</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="header">
+                    <div class="time">
+                        <span>27 feb</span>
+                        <span>08:55</span>
+                    </div>
+                    <div class="day">
+                        <h2>Wednesday</h2>
+                    </div>
+                    <div class="search">
+                        <input type="search" placeholder="search" />
+                    </div>
+                </div>
+                <div class="imgchat">
+                    <img src="img/copy img.jpeg" />
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
